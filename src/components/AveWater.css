@@ -1,0 +1,126 @@
+.AveWater {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.AveWater > section {
+  margin: 40px 10px;
+}
+
+.AveWater > h1 {
+  padding: 40px 20px 0px 0px;
+
+  font-size: 40px;
+}
+
+.AveWater .type_section {
+  display: flex;
+  gap: 1px;
+}
+.AveWater > section .title {
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  margin-right: 40px;
+  /* padding-left: 10px; */
+  align-items: center;
+}
+
+/* 기본 상태 */
+.AveWater .type_section .select {
+  padding: 10px 20px;
+  width: 70px;
+
+  cursor: pointer;
+
+  background-color: rgb(246, 246, 246);
+  border: 1px solid #004c9d;
+  color: #004c9d;
+}
+
+/* 선택된 상태 */
+.AveWater .type_section .select_input {
+  background-color: #004c9d;
+  color: white;
+}
+.AveWater .type_section .select_share {
+  background-color: #004c9d;
+  color: white;
+}
+.AveWater .type_section .select_goal {
+  background-color: #004c9d;
+  color: white;
+}
+
+/* 현재주가 입력 */
+.AveWater .price_section {
+  display: flex;
+}
+.AveWater .price_section > input {
+  padding: 20px 20px;
+  cursor: pointer;
+
+  background-color: rgb(246, 246, 246);
+  border: 1px solid #004c9d;
+
+  font-size: 18px;
+  width: 296px;
+}
+.AveWater .price_section > input:focus {
+  outline: none;
+}
+
+/* value값 받기 */
+.AveWater .value_section {
+  display: flex;
+}
+.AveWater .value_section > input {
+  padding: 20px 20px;
+  cursor: pointer;
+
+  background-color: rgb(246, 246, 246);
+  border: 1px solid #004c9d;
+
+  font-size: 18px;
+  width: 296px;
+}
+
+/* result section */
+.AveWater .result_section .top {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 100px;
+  padding: 30px 0px;
+  gap: 50px;
+  border-top: 1px solid rgb(93, 93, 93);
+}
+.AveWater .result_section .bottom {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 30px 0px;
+  gap: 50px;
+
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+
+.AveWater .result_section > div .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  color: gray;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+.AveWater .result_section > div .price {
+  font-size: 35px;
+  color: green;
+}
+
+.AveWater .result_section .bottom .price {
+  color: rgb(204, 19, 19);
+}

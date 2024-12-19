@@ -1,0 +1,124 @@
+.InterestItem_basic {
+  padding: 0px 40px;
+  margin-bottom: 60px;
+}
+.InterestItem_basic > section {
+  margin: 30px 0px;
+}
+.InterestItem_basic > section > h1 {
+  font-size: 40px;
+}
+
+.InterestItem_basic .money_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_basic .money_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.InterestItem_basic .term_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_basic .term_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.InterestItem_basic .rate_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_basic .rate_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.InterestItem_basic .button_section > button {
+  padding: 10px 20px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  border: none;
+
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.InterestItem_basic .button_section > button:active {
+  background-color: rgb(149, 221, 149);
+  transform: scale(0.95);
+}
+
+.InterestItem_basic .calculate_section {
+  margin-top: 80px;
+  padding: 30px 0px;
+  border: none;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InterestItem_basic .calculate_section .total_interest {
+  width: 50%;
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+}
+/* Interest */
+.InterestItem_basic .calculate_section .title_interest {
+  font-size: 20px;
+  color: gray;
+
+  padding-bottom: 5px;
+}
+.InterestItem_basic .calculate_section .price_interest {
+  font-size: 35px;
+  color: green;
+}
+
+/* Money */
+.InterestItem_basic .calculate_section .total_money {
+  width: 50%;
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: flex-end; /* 왼쪽 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+}
+.InterestItem_basic .calculate_section .title_money {
+  font-size: 20px;
+  color: gray;
+
+  padding-bottom: 5px;
+}
+.InterestItem_basic .calculate_section .price_money {
+  font-size: 35px;
+  color: green;
+}
+
+.InterestItem_basic .excel_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

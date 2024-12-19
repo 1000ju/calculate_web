@@ -1,0 +1,115 @@
+.AveExchange {
+  margin-bottom: 100px;
+}
+
+.AveExchange > h1 {
+  padding: 20px 0px;
+
+  font-size: 40px;
+}
+
+.AveExchange .select_section {
+  display: flex;
+  gap: 60px;
+
+  font-size: 40px;
+}
+
+.AveExchange .select_section .select_now,
+.AveExchange .select_section .select_later {
+  /* border: 1px solid gray; */
+  padding: 10px 20px;
+}
+
+.AveExchange .select_section > div > select {
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  width: 200px;
+}
+
+/* 환율 계산 */
+.AveExchange .standard_section {
+  margin-top: 80px;
+}
+.AveExchange .standard_section > div {
+  padding: 10px 10px;
+  border-bottom: 2px solid blue;
+  width: 270px;
+
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+}
+
+/* chose_section */
+.AveExchange .chose_section {
+  margin-top: 80px;
+}
+.AveExchange .chose_section > select {
+  margin-top: 10px;
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* buttons section */
+.AveExchange .button_section > button {
+  margin-top: 30px;
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  width: 150px;
+
+  transition: background-color 0.3s, transform 0.1s;
+}
+.AveExchange .button_section > button:active {
+  background-color: rgb(149, 221, 149);
+  transform: scale(0.95);
+}
+/* css가 안 예뻐... */
+
+/* result_section */
+.AveExchange .result_section {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 100px;
+  padding: 30px 70px;
+
+  border-top: 1px solid rgb(93, 93, 93);
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+.AveExchange .result_section .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: gray;
+
+  padding-bottom: 5px;
+}
+.AveExchange .result_section .price {
+  font-size: 35px;
+  color: green;
+}
+/* result_seciton에서의 exception */
+.AveExchange .result_section .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding-top: 50px;
+}

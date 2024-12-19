@@ -1,0 +1,112 @@
+.Excel > section {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Excel > section > div {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid gray;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+.Excel > section .id {
+  width: 10%;
+  justify-content: center;
+  background-color: rgb(173, 173, 173);
+}
+
+.Excel > section .E_profit {
+  width: 30%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+  color: green;
+}
+.Excel > section .E_amount {
+  width: 30%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+}
+.Excel > section .E_ratio {
+  width: 30%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+  color: red;
+}
+
+/* className을 달리하여 문제를 해결 */
+.Excel > section .id_earn {
+  width: 8%;
+  justify-content: center;
+  background-color: rgb(173, 173, 173);
+}
+
+.Excel > section .E_total_earn {
+  width: 23%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+}
+
+.Excel > section .E_profit_earn {
+  width: 23%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+  color: green;
+}
+.Excel > section .E_amount_earn {
+  width: 23%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+}
+.Excel > section .E_ratio_earn {
+  width: 23%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+  color: red;
+}
+
+/* 배당 계산기 excel */
+.Excel .title_bar_divident,
+.Excel .excel_value_divident {
+  width: 100%;
+}
+.Excel > section .id_divident {
+  width: 5%;
+  justify-content: center;
+  background-color: rgb(173, 173, 173);
+}
+
+.Excel > section .E_stock_divident {
+  width: 19%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+}
+
+.Excel > section .E_total_divident {
+  width: 19%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+}
+
+.Excel > section .E_amount_divident {
+  width: 19%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+}
+
+.Excel > section .E_profit_divident {
+  width: 19%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+  color: green;
+}
+
+.Excel > section .E_ratio_divident {
+  width: 19%;
+  justify-content: flex-end;
+  background-color: rgb(246, 246, 246);
+  color: red;
+}

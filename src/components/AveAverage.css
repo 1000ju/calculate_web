@@ -1,0 +1,121 @@
+.AveAverage {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.AveAverage > h1 {
+  padding: 20px 0px;
+
+  font-size: 40px;
+}
+
+.AveAverage .title_section {
+  display: flex;
+  gap: 70px;
+  justify-content: space-evenly;
+  padding-right: 90px;
+
+  font-size: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+
+.AveAverage .input_section .input_value {
+  display: flex;
+  gap: 30px;
+
+  padding: 10px 5px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(246, 246, 246);
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
+.AveAverage .input_section .input_value .value1,
+.AveAverage .input_section .input_value .value2,
+.AveAverage .input_section .input_value .multiple {
+  width: 31%;
+  font-size: 18px;
+}
+/* 삭제 버튼 */
+.AveAverage .input_section .input_value .delete {
+  width: 7%;
+
+  /* #007bff 배경색 */
+  display: flex; /* 중앙 정렬을 위한 flexbox */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+
+  cursor: pointer; /* 마우스 커서 변경 */
+  width: 25px; /* 버튼의 너비 */
+  height: 25px; /* 버튼의 높이 */
+  border-radius: 50%; /* 동그란 모서리 */
+  margin-right: 10px;
+
+  background-color: rgb(204, 19, 19);
+  color: white; /* 글자색 */
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*input 내부 설정*/
+.AveAverage .input_section .input_value > input {
+  padding: 20px 20px;
+
+  border: 1px solid rgb(246, 246, 246);
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.AveAverage .input_section .input_value > input:focus {
+  outline: none;
+}
+
+/* button */
+.AveAverage .button_section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.AveAverage .button_section > button {
+  border: none;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+
+  transition: background-color 0.3s, transform 0.1s;
+}
+.AveAverage .button_section > button:active {
+  background-color: rgb(149, 221, 149);
+  transform: scale(0.95);
+}
+
+/* result section */
+.AveAverage .result_section {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 100px;
+  padding: 30px 0px;
+  gap: 50px;
+  border-top: 1px solid rgb(93, 93, 93);
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+
+.AveAverage .result_section .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: gray;
+
+  padding-bottom: 5px;
+}
+.AveAverage .result_section .price {
+  font-size: 35px;
+  color: green;
+}

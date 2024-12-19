@@ -1,0 +1,115 @@
+.Divident {
+  padding: 0px 40px;
+  margin-bottom: 60px;
+}
+.Divident > section > h1 {
+  font-size: 40px;
+}
+.Divident > section {
+  margin: 30px 0px;
+}
+
+/* input 입력 */
+.Divident > section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+/* input - 배당금 재투자 */
+.Divident .reinvest_section {
+  display: flex;
+}
+.Divident .reinvest_section > h3 {
+  background-color: #004c9d;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.Divident .reinvest_section > input {
+  width: 20%;
+  height: 50px;
+
+  margin-top: 16px;
+}
+/* checkbox랑 간격을 좀 좁히면 좋겠다 */
+
+/* rule_section */
+.Divident .rule_section {
+  display: flex;
+  gap: 20px;
+}
+.Divident .rule_section .resultPortion {
+  padding: 10px;
+  color: gray;
+}
+.Divident .rule_section > select {
+  padding: 10px 20px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  border: none;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* button_section */
+.Divident .button_section > button {
+  padding: 10px 20px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  border: none;
+
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.Divident .button_section > button:active {
+  background-color: rgb(149, 221, 149);
+  transform: scale(0.95);
+}
+
+/* calculate section */
+.Divident .calculate_section .top {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 100px;
+  padding: 30px 0px;
+  gap: 50px;
+  border-top: 1px solid rgb(93, 93, 93);
+}
+.Divident .calculate_section .bottom {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 30px 0px;
+  gap: 50px;
+
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+
+/* title */
+.Divident .calculate_section > div .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  color: gray;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+/* price */
+.Divident .calculate_section > div .price {
+  font-size: 35px;
+  color: green;
+}
+.Divident .calculate_section .bottom .price {
+  color: rgb(204, 19, 19);
+}

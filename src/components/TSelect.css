@@ -1,0 +1,31 @@
+.TSelect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+.TSelect .select {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  padding: 10px 0px;
+
+  font-size: 25px;
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+
+/* 선택 되었을 경우 css변경도 추가. 이거 todoList List부분임 */
+.select_basic {
+  background-color: rgb(233, 255, 243);
+  color: gray;
+  border-bottom: 1px solid rgb(233, 255, 243);
+}
+
+.select_earn {
+  background-color: rgb(233, 255, 243);
+  color: gray;
+  border-bottom: 1px solid rgb(233, 255, 243);
+}

@@ -1,0 +1,19 @@
+.Header {
+  border-bottom: 3px solid rgb(182, 182, 182);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+  margin-bottom: 20px;
+
+  cursor: pointer;
+}
+.Header > img {
+  padding: 0px 30px;
+  width: 20%;
+}
+.Header > div {
+  padding: 0px 25px;
+  font-size: 20px;
+  font-weight: bold;
+}

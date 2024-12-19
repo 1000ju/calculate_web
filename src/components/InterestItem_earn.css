@@ -1,0 +1,159 @@
+.InterestItem_earn {
+  padding: 0px 40px;
+  margin-bottom: 60px;
+}
+.InterestItem_earn > section {
+  margin: 30px 0px;
+}
+.InterestItem_earn > section > h1 {
+  font-size: 40px;
+}
+
+.InterestItem_earn .startMoney_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_earn .startMoney_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+.InterestItem_earn .plusMoney_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_earn .plusMoney_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+/* 
+----------------------------------------------------------
+*/
+.InterestItem_earn .term_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_earn .term_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.InterestItem_earn .rate_section > input {
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 2px solid rgb(236, 236, 236);
+  font-size: 20px;
+}
+.InterestItem_earn .rate_section > input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.InterestItem_earn .rule_section {
+  display: flex;
+  gap: 20px;
+}
+.InterestItem_earn .rule_section .resultRate {
+  padding: 10px;
+  color: gray;
+}
+.InterestItem_earn .rule_section > select {
+  padding: 10px 20px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  border: none;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.InterestItem_earn .button_section > button {
+  padding: 10px 20px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  border: none;
+
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.InterestItem_earn .button_section > button:active {
+  background-color: rgb(149, 221, 149);
+  transform: scale(0.95);
+}
+
+.InterestItem_earn .calculate_section .top {
+  margin-top: 80px;
+  padding: 30px 0px;
+  border: none;
+  border-top: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InterestItem_earn .calculate_section .bottom {
+  /* margin-top: 80px; */
+  padding: 30px 0px;
+  border: none;
+  /* border-top: 1px solid gray; */
+  border-bottom: 1px solid gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* left value */
+.InterestItem_earn .calculate_section .total_left {
+  width: 50%;
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+}
+/* right value */
+.InterestItem_earn .calculate_section .total_right {
+  width: 50%;
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column;
+  justify-content: flex-end; /* 왼쪽 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+}
+/* title */
+.InterestItem_earn .calculate_section .title {
+  font-size: 20px;
+  color: gray;
+
+  padding-bottom: 5px;
+}
+/* price */
+.InterestItem_earn .calculate_section .price {
+  font-size: 35px;
+  color: green;
+}
+
+.InterestItem_earn .excel_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
